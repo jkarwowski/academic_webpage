@@ -390,8 +390,8 @@
     "venue": "ICLR 2024",
     "paper_url": "https://arxiv.org/abs/2310.09144",
     "pdf_url": "https://arxiv.org/pdf/2310.09144v1",
-    "figure": "Figure 3(b), rightmost panel (angle distance 0.67)",
-    "alt": "Reward-vector geometry: a purple training path turns along the policy-space boundary as proxy optimization diverges from true reward.",
+    "figure": "Figure 3(b), last two panels (angle distances 0.45 and 0.67)",
+    "alt": "Two panels compare reward-vector geometry and purple training trajectories at angle distances 0.45 and 0.67.",
     "blogs": [
       {
         "label": "Blog",
@@ -400,23 +400,23 @@
     ],
     "image": "assets/papers/goodharts-law.png",
     "dimensions": {
-      "width": 426,
-      "height": 511
+      "width": 674,
+      "height": 409
     },
     "page_1based": 6,
     "crop": {
       "units": "PDF points",
       "origin": "top-left",
       "box": [
-        420.87,
-        87.05,
-        505.96,
-        189.16
+        337.5,
+        87,
+        506,
+        189.25
       ]
     },
-    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "rendering": "Raster crop of the actual paper PDF rendered at 288 dpi with Poppler. Last two Figure 3(b) panels included; surrounding captions excluded. No redrawing.",
     "verified_on": "2026-10-19",
-    "selection_reason": "The rightmost geometric panel depicts the mechanism behind Goodharting, with the training path bending against the true reward direction.",
+    "selection_reason": "The last two geometric panels compare how training paths change as proxy and true reward directions diverge.",
     "venue_url": "https://iclr.cc/Conferences/2024",
     "resources": [
       {

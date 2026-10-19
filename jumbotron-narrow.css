@@ -1,7 +1,29 @@
+:root {
+  --font-size-main: 14px;
+  --font-size-heading: 24px;
+  --font-size-paper-title: 14px;
+  --font-size-name: 32px;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: var(--font-size-main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: var(--font-size-heading);
+}
+
+.profile-name {
+  font-size: var(--font-size-name);
+}
+
+.contact-label {
+  margin: 10px 0;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 /* Header and footer spacing; content rows use Bootstrap's grid gutters. */
@@ -32,7 +54,7 @@ body {
 /* A wider reading area that still fits smaller screens. */
 .container {
   width: 100%;
-  max-width: 760px;
+  max-width: 720px;
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -51,7 +73,7 @@ body {
 
 .jumbotron .btn {
   padding: 14px 24px;
-  font-size: 12px;
+  font-size: var(--font-size-main);
 }
 
 .atron {
@@ -60,7 +82,7 @@ body {
 }
 .atron .btn {
   padding: 14px 24px;
-  font-size: 12px;
+  font-size: var(--font-size-main);
 }
 
 .profile-links {
@@ -97,7 +119,6 @@ body {
 .section-title {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 24px;
 }
 
 /* Paper figures and details share a row when there is room. */
@@ -123,12 +144,12 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 152px;
+  max-height: 110px;
   object-fit: contain;
 }
 .paper-title {
-  margin: 0 0 8px;
-  font-size: 18px;
+  margin: 0;
+  font-size: var(--font-size-paper-title);
   font-weight: 600;
   line-height: 1.35;
   text-wrap: pretty;
@@ -137,13 +158,12 @@ body {
   color: inherit;
 }
 .paper-authors {
-  margin-bottom: 6px;
+  margin: 0;
   line-height: 1.5;
 }
 .paper-venue {
-  margin-bottom: 7px;
+  margin: 0;
   color: #666;
-  font-size: 13px;
   line-height: 1.5;
 }
 .paper-venue a {
@@ -152,14 +172,14 @@ body {
 .paper-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 16px;
+  gap: 0 16px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .paper-links a {
   display: inline-block;
-  padding: 3px 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 560px) {
