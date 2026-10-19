@@ -4,9 +4,8 @@ body {
   padding-bottom: 20px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+/* Header and footer spacing; content rows use Bootstrap's grid gutters. */
 .header,
-.marketing,
 .footer {
   padding-right: 15px;
   padding-left: 15px;
@@ -30,11 +29,10 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+/* A wider reading area that still fits smaller screens. */
+.container {
+  width: 100%;
+  max-width: 740px;
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -65,9 +63,33 @@ body {
   font-size: 12px;
 }
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 14px;
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile-links img {
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.bio p {
+  text-wrap: pretty;
 }
 .marketing p + h4 {
   margin-top: 28px;
@@ -77,7 +99,6 @@ body {
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
   .footer {
     padding-right: 0;
     padding-left: 0;

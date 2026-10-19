@@ -1,0 +1,55 @@
+{
+  "downloaded_on": "2026-10-19",
+  "note": "Icons saved from the sources listed below in PNG format. Any format conversions are documented per asset. Brand assets remain subject to their owners' usage guidelines.",
+  "assets": [
+    {
+      "file": "linkedin.png",
+      "source_page": "https://brand.linkedin.com/downloads",
+      "download_url": "https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/logos/in-logo.zip",
+      "archive_member": "in-logo/LI-In-Bug.png",
+      "sha256": "3c0149f26168b5fe0f43e68664abe40341a6443b3cd435d18a73e12f64f8b600"
+    },
+    {
+      "file": "github.png",
+      "source_page": "https://brand.github.com/foundations/logo",
+      "download_url": "https://brand.github.com/GitHub_Logos.zip",
+      "archive_member": "GitHub Logos/SVG/GitHub_Invertocat_Black.svg",
+      "sha256": "8d00a9ec1d77bba06ac9026cd9ce940fdac180b247b6b3533bc019e0f066a877",
+      "source_sha256": "693d7abe6f899646cc2e96856723b45e95f71885a54910b2749f6decdf7e1ee1",
+      "conversion": "Rendered the official SVG to PNG at its native 98 x 96 dimensions using rsvg-convert."
+    },
+    {
+      "file": "google-scholar.png",
+      "source_page": "https://scholar.google.com/",
+      "download_url": "https://scholar.google.com/favicon.ico",
+      "sha256": "697cb6edfc2c557b71cf2ad7f5f940e4b631d21e5e33967546715ef349272b4b",
+      "source_sha256": "8dac42076bd03098a771ac315fa277e0b70fa3030cc708554d74ed506fa3c2de",
+      "conversion": "Extracted the largest embedded PNG (48 x 48) from the official favicon without resizing."
+    },
+    {
+      "file": "oxford.png",
+      "source_page": "https://www.cs.ox.ac.uk/",
+      "download_url": "https://www.cs.ox.ac.uk/apple-touch-icon-114x114.png",
+      "sha256": "e07b4c36df030d708f000114033ddeeab0bead42349a98298bd632fcb4a62717"
+    },
+    {
+      "file": "mail.png",
+      "source_page": "https://icons.getbootstrap.com/icons/envelope/",
+      "download_url": "https://icons.getbootstrap.com/assets/icons/envelope.svg",
+      "license": "MIT",
+      "license_file": "bootstrap-icons-LICENSE.txt",
+      "conversion": "Rendered the official Bootstrap envelope SVG to a transparent 128 x 128 PNG using rsvg-convert.",
+      "source_sha256": "46354ede34e6acffd9828377884007ae3090db3b892e4b4a8fb8eec3e1017d63",
+      "sha256": "2ead5b174ebe90fd8198d40f6ceb42de63f87a1ed5fe54ddf289f51f4135d29a"
+    },
+    {
+      "file": "oxford-transparent.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oxford-University-Circlet.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/archive/f/ff/20140429213831%21Oxford-University-Circlet.svg",
+      "source_description": "Archived Wikimedia Commons revision from 12 April 2014, uploaded by Governor Jerjerrod; blue simplified crest variant. This is a Wikimedia-hosted copy, not a current university-hosted download.",
+      "conversion": "Rendered the unmodified SVG to a transparent PNG at 256 pixels high using rsvg-convert.",
+      "source_sha256": "0e78c1f3a1de0e0ba68df172d90504bc2c7cbb8fe89d89e4667418ac38cd3aa0",
+      "sha256": "0b7e3acc0e14d019a63d15c500d52c5e988aa94fdb5b4cd5f3f76d2c2d107990"
+    }
+  ]
+}
