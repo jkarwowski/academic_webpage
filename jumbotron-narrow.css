@@ -32,7 +32,7 @@ body {
 /* A wider reading area that still fits smaller screens. */
 .container {
   width: 100%;
-  max-width: 740px;
+  max-width: 760px;
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -93,6 +93,88 @@ body {
 }
 .marketing p + h4 {
   margin-top: 28px;
+}
+.section-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* Paper figures and details share a row when there is room. */
+.paper-list {
+  display: grid;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.paper {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  align-items: center;
+  gap: 22px;
+}
+.paper-figure {
+  display: block;
+  width: 95%;
+  justify-self: center;
+}
+.paper-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 152px;
+  object-fit: contain;
+}
+.paper-title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-wrap: pretty;
+}
+.paper-title a {
+  color: inherit;
+}
+.paper-authors {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+.paper-venue {
+  margin-bottom: 7px;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.paper-venue a {
+  color: inherit;
+}
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.paper-links a {
+  display: inline-block;
+  padding: 3px 0;
+}
+
+@media screen and (max-width: 560px) {
+  .paper {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .paper-figure {
+    width: min(95%, 228px);
+    justify-self: start;
+  }
+  .paper-figure img {
+    max-height: 171px;
+    object-position: left center;
+  }
 }
 
 /* Responsive: Portrait tablets and up */

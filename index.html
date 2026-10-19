@@ -65,7 +65,7 @@
         </div>
           <div class="row marketing bio">
           <div class="col-lg-12">
-            <h4 id="publications" align=left>Bio</h2><hr>
+            <h2 class="section-title" id="bio">Bio</h2><hr>
             <p>I am a fourth-year Computer Science DPhil student, supervised by <a href="https://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a>. My research interests lie (mostly) at the intersection of mathematics and theoretical computer science - such as the semantics of programming languages, Markov chain Monte Carlo methods, reinforcement learning theory, and information geometry. I currently split my time between doing research on categorical semantics of probabilistic programming languages and working on AI safety.</p>
 
             <p>For most of my DPhil, I was funded by Open Philanthropy's (now, Coefficient Giving) <a href="https://www.goodventures.org/our-portfolio/grants/improving-the-long-term-future-scholarship-support-2022">Early-Career Funding for Improving the Long-Term Future</a>. Now, I am funded by the <a href="https://www.cs.ox.ac.uk/projects/SynthStats/">SynthStats: GFlowNet-steered probabilistic program synthesis for safer AI</a> grant from the UK's <a href="https://aria.org.uk/">Advanced Research and Invention Agency</a>. I also did research internships at <a href="https://www.matsprogram.org/">SERI MATS</a> in Berkeley, California, US, and at the <a href="https://www.nii.ac.jp/en/">National Institute of Informatics</a> in Tokyo, Japan.</p>
@@ -74,50 +74,158 @@
 
             My full CV can be found <a href="pdfs/cv.pdf">here</a>.
 
-    </div> <!-- /container -->
+    </div>
 
     </div>
-          <div class="row marketing">
-          <div class="col-lg-12">
-    <h4 id="publications" align=left>Papers</h2><hr> 
-    <ul class="wide">
-        <!-- <li>
-        <a href="link">Title</a>, <span class="authors"> <b> ___</b>, AUTHORS (venue)</span>
-        </li>
-        <li> -->
-        <li>
-        <a href="https://arxiv.org/abs/2610.17886">Compositional Information Geometry of Probabilistic Programs</a>, <span class="authors"> <b> ___</b>, Frank Nielsen, Sam Staton (preprint)</span>
-        </li>
-        <li>
-        <a href="https://proceedings.mlr.press/v337/karwowski26a.html">Likelihood hacking in probabilistic program synthesis</a>, <span class="authors"> <b> ___</b>, Younesse Kaddar, Zihuiwen Ye, Esmeralda S. Whitammer, Sam Staton (<a href="https://www.auai.org/uai2026/">UAI 2026</a>)</span>
-        </li>
-        <li>
-        <a href="https://arxiv.org/abs/2603.02483">Geometric structures and deviations on James' symmetric positive-definite matrix bicone domain</a>, <span class="authors"> <b> ___</b>, Frank Nielsen (preprint)</span>
-        </li>
-        <li>
-        <a href="https://proceedings.mlr.press/v300/karwowski26a.html">Incoherence in goal-conditioned autoregressive models</a>, <span class="authors"> <b> ___</b>, Raymond Douglas (<a href="https://www.virtual.aistats.org/">AISTATS 2026</a>)</span>
-        </li>
-        <li>
-        <a href="https://proceedings.mlr.press/v282/karwowski26a.html">Hilbert geometry of the symmetric positive-definite bicone</a>, <span class="authors"> <b> ___</b>, Frank Nielsen
-   (<a href="https://www.neurreps.org/">NeurIPS 2025 workshop on Symmetry and Geometry in Neural Representations</a>)</span>
-        </li>
-        <li>
-        <a href="https://arxiv.org/abs/2409.17113">Characterizing stable regions in the residual stream of LLMs</a> (also see the <a href="https://www.lesswrong.com/posts/sGmT6aJPY7Xzuz3Ax/characterizing-stable-regions-in-the-residual-stream-of-llms">blogpost</a>), <span class="authors"> Jett Janiak, <b> ___</b>, Chatrik Singh Mangat, Giorgi Giglemiani, Nora Petrova, Stefan Heimersheim
- (<a href="https://scienceofdlworkshop.github.io//">NeurIPS 2024 workshop on Scientific Methods for Understanding Deep Learning</a>)</span>
-      </li>
-      <li>
-        <a href="https://arxiv.org/abs/2402.05829">Limitations of Agents Simulated by Predictive Models</a>, <span class="authors"> Raymond Douglas, <b>___</b>, Chan Bae, Andis Draguns, Victoria Krakovna (<a href="https://llmagents.github.io/">ICLR 2024 workshop on LLM Agents</a>)</span>
-      </li>
-      <li>
-        <a href="https://arxiv.org/abs/2310.09144">Goodhart's Law in Reinforcement Learning</a> (also see the <a href="https://www.lesswrong.com/posts/Eu6CvP7c7ivcGM3PJ/goodhart-s-law-in-reinforcement-learning">blogpost</a>), <span class="authors"> <b>___</b>, Oliver Hayman, Xingjian Bai, Klaus Kiendlhofer, Charlie Griffin, Joar Skalse (<a href="https://iclr.cc/Conferences/2024">ICLR 2024</a>)</span>
-      </li>
-      <li>
-        <a href="https://dl.acm.org/doi/10.1145/3632903">Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets</a>, <span class="authors"> Nate Ackerman, Cameron Freer, Younesse Kaddar, <b>___</b>, Sean Moss, Daniel Roy, Sam Staton, Hongseok Yang (<a href="https://popl24.sigplan.org/track/POPL-2024-popl-research-papers">POPL 2024</a>)</span>
-      </li>
-      <li>
-        <a href="https://dl.acm.org/doi/10.1145/3498667">Symmetries in reversible programming: from symmetric rig groupoids to reversible programming languages</a>, <span class="authors"> Vikraman Choudhury, <b>___</b>, Amr Sabry (<a href="https://popl22.sigplan.org/track/POPL-2022-popl-research-papers">POPL 2022</a>)</span>
-      </li>
-    </ul>
+    <section class="row marketing papers" aria-labelledby="publications">
+      <div class="col-lg-12">
+        <h2 class="section-title" id="publications">Papers</h2>
+        <hr>
+        <ul class="paper-list">
+          <li class="paper" id="compositional-information-geometry">
+            <a class="paper-figure" href="https://arxiv.org/abs/2610.17886">
+              <img src="assets/papers/compositional-information-geometry.png" width="780" height="620" alt="Red score and blue velocity curves intersect on the spherical geometry of a two-parameter probabilistic program." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17886">Compositional Information Geometry of Probabilistic Programs</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Frank Nielsen, Sam Staton</p>
+              <p class="paper-venue">Preprint (2026)</p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://arxiv.org/abs/2610.17886">Paper</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="likelihood-hacking">
+            <a class="paper-figure" href="https://proceedings.mlr.press/v337/karwowski26a.html">
+              <img src="assets/papers/likelihood-hacking.png" width="1000" height="670" alt="Probabilistic program synthesis loop connecting an LLM program generator, a syntax checker, and a program evaluator with a likelihood-hacking example." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://proceedings.mlr.press/v337/karwowski26a.html">Likelihood hacking in probabilistic program synthesis</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Younesse Kaddar, Zihuiwen Ye, Esmeralda S. Whitammer, Sam Staton</p>
+              <p class="paper-venue"><a href="https://www.auai.org/uai2026/">UAI 2026</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://proceedings.mlr.press/v337/karwowski26a.html">Paper</a></li>
+                <li><a href="posters/likelihood-hacking.pdf">Poster</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="geometric-structures-bicone">
+            <a class="paper-figure" href="https://arxiv.org/abs/2603.02483">
+              <img src="assets/papers/geometric-structures-bicone.png" width="885" height="674" alt="Black ellipses represent two SPD matrices, with blue affine-invariant and red Hilbert-Finsler geodesic midpoints." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://arxiv.org/abs/2603.02483">Geometric structures and deviations on James&#x27; symmetric positive-definite matrix bicone domain</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Frank Nielsen</p>
+              <p class="paper-venue">Preprint (2026)</p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://arxiv.org/abs/2603.02483">Paper</a></li>
+                <li><a href="https://franknielsen.github.io/VPM/vpmdemo.html">Website</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="incoherence-autoregressive">
+            <a class="paper-figure" href="https://proceedings.mlr.press/v300/karwowski26a.html">
+              <img src="assets/papers/incoherence-autoregressive.png" width="1000" height="509" alt="Mountain-race decision tree contrasts a risky mountain route with a safer forest route and shows their reward probabilities." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://proceedings.mlr.press/v300/karwowski26a.html">Incoherence in Goal-Conditioned Autoregressive Models</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Raymond Douglas</p>
+              <p class="paper-venue"><a href="https://aistats.org/aistats2026/">AISTATS 2026</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://proceedings.mlr.press/v300/karwowski26a.html">Paper</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="hilbert-geometry">
+            <a class="paper-figure" href="https://proceedings.mlr.press/v282/karwowski26a.html">
+              <img src="assets/papers/hilbert-geometry.png" width="648" height="567" alt="Blue expanded bicone surrounds the black SPD bicone, illustrating nested convex domains for Hilbert geometry." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://proceedings.mlr.press/v282/karwowski26a.html">Hilbert geometry of the symmetric positive-definite bicone</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Frank Nielsen</p>
+              <p class="paper-venue"><a href="https://www.neurreps.org/">NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://proceedings.mlr.press/v282/karwowski26a.html">Paper</a></li>
+                <li><a href="posters/hilbert-geometry.pdf">Poster</a></li>
+                <li><a href="https://franknielsen.github.io/ExtendedGaussianGeometry/">Website</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="stable-regions">
+            <a class="paper-figure" href="https://arxiv.org/abs/2409.17113">
+              <img src="assets/papers/stable-regions.png" width="740" height="517" alt="Two residual-stream color maps showing sharper red, green, and blue stable-region boundaries as OLMo-7B training progresses." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://arxiv.org/abs/2409.17113">Characterizing stable regions in the residual stream of LLMs</a></h3>
+              <p class="paper-authors">Jett Janiak, <strong>Jacek Karwowski</strong>, Chatrik Singh Mangat, Giorgi Giglemiani, Nora Petrova, Stefan Heimersheim</p>
+              <p class="paper-venue"><a href="https://scienceofdlworkshop.github.io/">NeurIPS 2024 workshop on Scientific Methods for Understanding Deep Learning</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://arxiv.org/abs/2409.17113">Paper</a></li>
+                <li><a href="https://www.lesswrong.com/posts/sGmT6aJPY7Xzuz3Ax/characterizing-stable-regions-in-the-residual-stream-of-llms">Blogpost</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="limitations-predictive-agents">
+            <a class="paper-figure" href="https://arxiv.org/abs/2402.05829">
+              <img src="assets/papers/limitations-predictive-agents.png" width="800" height="422" alt="Diagram showing predictive models, auto-suggestive delusions and predictor-policy incoherence, and fine-tuning on the models’ own actions." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://arxiv.org/abs/2402.05829">Limitations of Agents Simulated by Predictive Models</a></h3>
+              <p class="paper-authors">Raymond Douglas, <strong>Jacek Karwowski</strong>, Chan Bae, Andis Draguns, Victoria Krakovna</p>
+              <p class="paper-venue"><a href="https://llmagents.github.io/">ICLR 2024 workshop on LLM Agents</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://arxiv.org/abs/2402.05829">Paper</a></li>
+                <li><a href="posters/limitations-of-agents.pdf">Poster</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="goodharts-law">
+            <a class="paper-figure" href="https://arxiv.org/abs/2310.09144">
+              <img src="assets/papers/goodharts-law.png" width="426" height="511" alt="Reward-vector geometry: a purple training path turns along the policy-space boundary as proxy optimization diverges from true reward." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://arxiv.org/abs/2310.09144">Goodhart&#x27;s Law in Reinforcement Learning</a></h3>
+              <p class="paper-authors"><strong>Jacek Karwowski</strong>, Oliver Hayman, Xingjian Bai, Klaus Kiendlhofer, Charlie Griffin, Joar Skalse</p>
+              <p class="paper-venue"><a href="https://iclr.cc/Conferences/2024">ICLR 2024</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://arxiv.org/abs/2310.09144">Paper</a></li>
+                <li><a href="https://www.lesswrong.com/posts/Eu6CvP7c7ivcGM3PJ/goodhart-s-law-in-reinforcement-learning">Blogpost</a></li>
+                <li><a href="posters/goodharts-law.pdf">Poster</a></li>
+                <li><a href="https://drive.google.com/file/d/1LMEN8JCMongNlqd5C3J80B-rWI-iuGjJ/view?usp=sharing">Video</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="random-graphs">
+            <a class="paper-figure" href="https://dl.acm.org/doi/10.1145/3632903">
+              <img src="assets/papers/random-graphs.png" width="534" height="530" alt="A random graph realized geometrically on a blue sphere, with red edges connecting nearby sampled vertices." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3632903">Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets</a></h3>
+              <p class="paper-authors">Nathanael L. Ackerman, Cameron E. Freer, Younesse Kaddar, <strong>Jacek Karwowski</strong>, Sean K. Moss, Daniel M. Roy, Sam Staton, Hongseok Yang</p>
+              <p class="paper-venue"><a href="https://popl24.sigplan.org/track/POPL-2024-popl-research-papers">POPL 2024</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://dl.acm.org/doi/10.1145/3632903">Paper</a></li>
+                <li><a href="https://www.youtube.com/watch?v=GdxIDp_-84E">Video</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="paper" id="reversible-programming">
+            <a class="paper-figure" href="https://dl.acm.org/doi/10.1145/3498667">
+              <img src="assets/papers/reversible-programming.png" width="800" height="500" alt="Two braid diagrams linked by a rewrite arrow illustrate a modified Coxeter relation for equivalent reversible programs." loading="lazy" decoding="async">
+            </a>
+            <div class="paper-details">
+              <h3 class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3498667">Symmetries in reversible programming: from symmetric rig groupoids to reversible programming languages</a></h3>
+              <p class="paper-authors">Vikraman Choudhury, <strong>Jacek Karwowski</strong>, Amr Sabry</p>
+              <p class="paper-venue"><a href="https://popl22.sigplan.org/track/POPL-2022-popl-research-papers">POPL 2022</a></p>
+              <ul class="paper-links" aria-label="Resources">
+                <li><a href="https://dl.acm.org/doi/10.1145/3498667">Paper</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Hft9ozRusIA">Video</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
     </div> <!-- /container -->
   </body>
 </html>

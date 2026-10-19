@@ -1,0 +1,535 @@
+[
+  {
+    "slug": "compositional-information-geometry",
+    "title": "Compositional Information Geometry of Probabilistic Programs",
+    "authors": [
+      "Jacek Karwowski",
+      "Frank Nielsen",
+      "Sam Staton"
+    ],
+    "venue": "Preprint (2026)",
+    "paper_url": "https://arxiv.org/abs/2610.17886",
+    "pdf_url": "https://arxiv.org/pdf/2610.17886",
+    "figure": "1 (right-hand geometric surface)",
+    "alt": "Red score and blue velocity curves intersect on the spherical geometry of a two-parameter probabilistic program.",
+    "selection_reason": "The main introductory figure shows the central geometric construction; the surface panel remains recognizable at thumbnail size.",
+    "crop": {
+      "description": "Actual PDF page rendered with Poppler; crop excludes the mapping label beneath the sphere, caption, and surrounding text. No redrawing.",
+      "source_preview_dimensions": [
+        1160,
+        1500
+      ],
+      "box_in_preview_pixels": [
+        640,
+        530,
+        965,
+        788.333333
+      ],
+      "box_in_pdf_points_from_top_left": [
+        337.66,
+        279.84,
+        509.12,
+        416.24
+      ],
+      "render_long_edge_pixels": 3600
+    },
+    "verified_on": "2026-10-19",
+    "authors_source": "https://arxiv.org/abs/2610.17886",
+    "image": "assets/papers/compositional-information-geometry.png",
+    "dimensions": {
+      "width": 780,
+      "height": 620
+    },
+    "page_1based": 2,
+    "blogs": [],
+    "venue_url": null,
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2610.17886"
+      }
+    ]
+  },
+  {
+    "slug": "likelihood-hacking",
+    "title": "Likelihood hacking in probabilistic program synthesis",
+    "authors": [
+      "Jacek Karwowski",
+      "Younesse Kaddar",
+      "Zihuiwen Ye",
+      "Esmeralda S. Whitammer",
+      "Sam Staton"
+    ],
+    "venue": "UAI 2026",
+    "paper_url": "https://proceedings.mlr.press/v337/karwowski26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v337/main/assets/karwowski26a/karwowski26a.pdf",
+    "figure": "1",
+    "alt": "Probabilistic program synthesis loop connecting an LLM program generator, a syntax checker, and a program evaluator with a likelihood-hacking example.",
+    "selection_reason": "The introductory illustrated training loop directly conveys the paper's problem and the safety-checking intervention.",
+    "crop": {
+      "description": "Actual PDF page rendered with Poppler; crop excludes caption and surrounding text. No redrawing.",
+      "source_preview_dimensions": [
+        1128,
+        1500
+      ],
+      "box_in_preview_pixels": [
+        102,
+        112,
+        1028,
+        732
+      ],
+      "box_in_pdf_points_from_top_left": [
+        53.83,
+        59.14,
+        542.5,
+        386.5
+      ],
+      "render_long_edge_pixels": 3600
+    },
+    "verified_on": "2026-10-19",
+    "authors_source": "https://proceedings.mlr.press/v337/karwowski26a.html",
+    "image": "assets/papers/likelihood-hacking.png",
+    "dimensions": {
+      "width": 1000,
+      "height": 670
+    },
+    "page_1based": 2,
+    "blogs": [],
+    "venue_url": "https://www.auai.org/uai2026/",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.mlr.press/v337/karwowski26a.html"
+      },
+      {
+        "label": "Poster",
+        "url": "posters/likelihood-hacking.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "geometric-structures-bicone",
+    "title": "Geometric structures and deviations on James' symmetric positive-definite matrix bicone domain",
+    "authors": [
+      "Jacek Karwowski",
+      "Frank Nielsen"
+    ],
+    "venue": "Preprint (2026)",
+    "paper_url": "https://arxiv.org/abs/2603.02483",
+    "pdf_url": "https://arxiv.org/pdf/2603.02483",
+    "figure": "4 (left panel)",
+    "alt": "Black ellipses represent two SPD matrices, with blue affine-invariant and red Hilbert-Finsler geodesic midpoints.",
+    "selection_reason": "This color comparison captures the paper's new geometric structures and distinguishes it from the earlier Hilbert bicone paper.",
+    "crop": {
+      "description": "Actual PDF page rendered with Poppler; crop excludes caption and surrounding text. No redrawing.",
+      "source_preview_dimensions": [
+        1160,
+        1500
+      ],
+      "box_in_preview_pixels": [
+        184,
+        195,
+        553,
+        476
+      ],
+      "box_in_pdf_points_from_top_left": [
+        97.08,
+        102.96,
+        291.76,
+        251.33
+      ],
+      "render_long_edge_pixels": 3600
+    },
+    "verified_on": "2026-10-19",
+    "authors_source": "https://arxiv.org/abs/2603.02483",
+    "image": "assets/papers/geometric-structures-bicone.png",
+    "dimensions": {
+      "width": 885,
+      "height": 674
+    },
+    "page_1based": 11,
+    "blogs": [],
+    "venue_url": null,
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2603.02483"
+      },
+      {
+        "label": "Website",
+        "url": "https://franknielsen.github.io/VPM/vpmdemo.html"
+      }
+    ]
+  },
+  {
+    "slug": "incoherence-autoregressive",
+    "title": "Incoherence in Goal-Conditioned Autoregressive Models",
+    "authors": [
+      "Jacek Karwowski",
+      "Raymond Douglas"
+    ],
+    "venue": "AISTATS 2026",
+    "paper_url": "https://proceedings.mlr.press/v300/karwowski26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v300/main/assets/karwowski26a/karwowski26a.pdf",
+    "figure": "1",
+    "alt": "Mountain-race decision tree contrasts a risky mountain route with a safer forest route and shows their reward probabilities.",
+    "selection_reason": "The illustrative mountain-race example introduces the structural incoherence problem and is the paper's most distinctive diagram.",
+    "crop": {
+      "description": "Actual PDF page rendered with Poppler; crop excludes caption and surrounding text. No redrawing.",
+      "source_preview_dimensions": [
+        1160,
+        1500
+      ],
+      "box_in_preview_pixels": [
+        606,
+        412,
+        1030,
+        628
+      ],
+      "box_in_pdf_points_from_top_left": [
+        319.72,
+        217.54,
+        543.41,
+        331.58
+      ],
+      "render_long_edge_pixels": 3600
+    },
+    "verified_on": "2026-10-19",
+    "authors_source": "https://proceedings.mlr.press/v300/karwowski26a.html",
+    "image": "assets/papers/incoherence-autoregressive.png",
+    "dimensions": {
+      "width": 1000,
+      "height": 509
+    },
+    "page_1based": 1,
+    "blogs": [],
+    "venue_url": "https://aistats.org/aistats2026/",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.mlr.press/v300/karwowski26a.html"
+      }
+    ]
+  },
+  {
+    "slug": "hilbert-geometry",
+    "title": "Hilbert geometry of the symmetric positive-definite bicone",
+    "authors": [
+      "Jacek Karwowski",
+      "Frank Nielsen"
+    ],
+    "venue": "NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations",
+    "paper_url": "https://proceedings.mlr.press/v282/karwowski26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v282/main/assets/karwowski26a/karwowski26a.pdf",
+    "figure": "2(a)",
+    "alt": "Blue expanded bicone surrounds the black SPD bicone, illustrating nested convex domains for Hilbert geometry.",
+    "selection_reason": "The three-dimensional bicone is the distinctive geometric object studied in the paper.",
+    "project_links": [
+      {
+        "label": "Website",
+        "url": "https://franknielsen.github.io/ExtendedGaussianGeometry/",
+        "verified": true
+      }
+    ],
+    "crop": {
+      "description": "Actual PDF page rendered with Poppler; crop excludes caption and surrounding text. No redrawing.",
+      "source_preview_dimensions": [
+        1160,
+        1500
+      ],
+      "box_in_preview_pixels": [
+        260,
+        188,
+        530,
+        424
+      ],
+      "box_in_pdf_points_from_top_left": [
+        137.17,
+        99.26,
+        279.62,
+        223.87
+      ],
+      "render_long_edge_pixels": 3600
+    },
+    "verified_on": "2026-10-19",
+    "authors_source": "https://proceedings.mlr.press/v282/karwowski26a.html",
+    "image": "assets/papers/hilbert-geometry.png",
+    "dimensions": {
+      "width": 648,
+      "height": 567
+    },
+    "page_1based": 16,
+    "blogs": [],
+    "venue_url": "https://www.neurreps.org/",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.mlr.press/v282/karwowski26a.html"
+      },
+      {
+        "label": "Poster",
+        "url": "posters/hilbert-geometry.pdf"
+      },
+      {
+        "label": "Website",
+        "url": "https://franknielsen.github.io/ExtendedGaussianGeometry/"
+      }
+    ]
+  },
+  {
+    "slug": "stable-regions",
+    "title": "Characterizing stable regions in the residual stream of LLMs",
+    "authors": [
+      "Jett Janiak",
+      "Jacek Karwowski",
+      "Chatrik Singh Mangat",
+      "Giorgi Giglemiani",
+      "Nora Petrova",
+      "Stefan Heimersheim"
+    ],
+    "venue": "NeurIPS 2024 workshop on Scientific Methods for Understanding Deep Learning",
+    "paper_url": "https://arxiv.org/abs/2409.17113",
+    "pdf_url": "https://arxiv.org/pdf/2409.17113v4",
+    "figure": "Figure 1, final two panels (796B and 2750B training tokens)",
+    "alt": "Two residual-stream color maps showing sharper red, green, and blue stable-region boundaries as OLMo-7B training progresses.",
+    "blogs": [
+      {
+        "label": "Blog",
+        "url": "https://www.lesswrong.com/posts/sGmT6aJPY7Xzuz3Ax/characterizing-stable-regions-in-the-residual-stream-of-llms"
+      }
+    ],
+    "image": "assets/papers/stable-regions.png",
+    "dimensions": {
+      "width": 740,
+      "height": 517
+    },
+    "page_1based": 2,
+    "crop": {
+      "units": "PDF points",
+      "origin": "top-left",
+      "box": [
+        358.04,
+        72.65,
+        505.96,
+        176.07
+      ]
+    },
+    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "verified_on": "2026-10-19",
+    "selection_reason": "The color maps directly visualize the stable regions that are the central finding; the final two panels keep the regions readable at thumbnail size.",
+    "venue_url": "https://scienceofdlworkshop.github.io/",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2409.17113"
+      },
+      {
+        "label": "Blog",
+        "url": "https://www.lesswrong.com/posts/sGmT6aJPY7Xzuz3Ax/characterizing-stable-regions-in-the-residual-stream-of-llms"
+      }
+    ]
+  },
+  {
+    "slug": "limitations-predictive-agents",
+    "title": "Limitations of Agents Simulated by Predictive Models",
+    "authors": [
+      "Raymond Douglas",
+      "Jacek Karwowski",
+      "Chan Bae",
+      "Andis Draguns",
+      "Victoria Krakovna"
+    ],
+    "venue": "ICLR 2024 workshop on LLM Agents",
+    "paper_url": "https://arxiv.org/abs/2402.05829",
+    "pdf_url": "https://arxiv.org/pdf/2402.05829v1",
+    "figure": "Figure 1",
+    "alt": "Diagram showing predictive models, auto-suggestive delusions and predictor-policy incoherence, and fine-tuning on the models’ own actions.",
+    "blogs": [],
+    "image": "assets/papers/limitations-predictive-agents.png",
+    "dimensions": {
+      "width": 800,
+      "height": 422
+    },
+    "page_1based": 1,
+    "crop": {
+      "units": "PDF points",
+      "origin": "top-left",
+      "box": [
+        307.64,
+        172.15,
+        540.65,
+        295.2
+      ]
+    },
+    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "verified_on": "2026-10-19",
+    "selection_reason": "The opening overview diagram connects both failure modes to the proposed remedy and represents the whole paper.",
+    "venue_url": "https://llmagents.github.io/",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2402.05829"
+      },
+      {
+        "label": "Poster",
+        "url": "posters/limitations-of-agents.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "goodharts-law",
+    "title": "Goodhart's Law in Reinforcement Learning",
+    "authors": [
+      "Jacek Karwowski",
+      "Oliver Hayman",
+      "Xingjian Bai",
+      "Klaus Kiendlhofer",
+      "Charlie Griffin",
+      "Joar Skalse"
+    ],
+    "venue": "ICLR 2024",
+    "paper_url": "https://arxiv.org/abs/2310.09144",
+    "pdf_url": "https://arxiv.org/pdf/2310.09144v1",
+    "figure": "Figure 3(b), rightmost panel (angle distance 0.67)",
+    "alt": "Reward-vector geometry: a purple training path turns along the policy-space boundary as proxy optimization diverges from true reward.",
+    "blogs": [
+      {
+        "label": "Blog",
+        "url": "https://www.lesswrong.com/posts/Eu6CvP7c7ivcGM3PJ/goodhart-s-law-in-reinforcement-learning"
+      }
+    ],
+    "image": "assets/papers/goodharts-law.png",
+    "dimensions": {
+      "width": 426,
+      "height": 511
+    },
+    "page_1based": 6,
+    "crop": {
+      "units": "PDF points",
+      "origin": "top-left",
+      "box": [
+        420.87,
+        87.05,
+        505.96,
+        189.16
+      ]
+    },
+    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "verified_on": "2026-10-19",
+    "selection_reason": "The rightmost geometric panel depicts the mechanism behind Goodharting, with the training path bending against the true reward direction.",
+    "venue_url": "https://iclr.cc/Conferences/2024",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2310.09144"
+      },
+      {
+        "label": "Blog",
+        "url": "https://www.lesswrong.com/posts/Eu6CvP7c7ivcGM3PJ/goodhart-s-law-in-reinforcement-learning"
+      },
+      {
+        "label": "Poster",
+        "url": "posters/goodharts-law.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "movie/exports/goodharts-law-presentation.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "random-graphs",
+    "title": "Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets",
+    "authors": [
+      "Nathanael L. Ackerman",
+      "Cameron E. Freer",
+      "Younesse Kaddar",
+      "Jacek Karwowski",
+      "Sean K. Moss",
+      "Daniel M. Roy",
+      "Sam Staton",
+      "Hongseok Yang"
+    ],
+    "venue": "POPL 2024",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3632903",
+    "pdf_url": "https://arxiv.org/pdf/2312.17127v1",
+    "figure": "Figure 1(b)",
+    "alt": "A random graph realized geometrically on a blue sphere, with red edges connecting nearby sampled vertices.",
+    "blogs": [],
+    "image": "assets/papers/random-graphs.png",
+    "dimensions": {
+      "width": 534,
+      "height": 530
+    },
+    "page_1based": 3,
+    "crop": {
+      "units": "PDF points",
+      "origin": "top-left",
+      "box": [
+        197.02,
+        84.44,
+        303.71,
+        190.47
+      ]
+    },
+    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "verified_on": "2026-10-19",
+    "selection_reason": "The inferred geometric realization is a distinctive illustration of random graphs arising from an abstract probabilistic interface.",
+    "venue_url": "https://popl24.sigplan.org/track/POPL-2024-popl-research-papers",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3632903"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=GdxIDp_-84E"
+      }
+    ]
+  },
+  {
+    "slug": "reversible-programming",
+    "title": "Symmetries in reversible programming: from symmetric rig groupoids to reversible programming languages",
+    "authors": [
+      "Vikraman Choudhury",
+      "Jacek Karwowski",
+      "Amr Sabry"
+    ],
+    "venue": "POPL 2022",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3498667",
+    "pdf_url": "https://arxiv.org/pdf/2110.05404v1",
+    "figure": "Figure 6(b)",
+    "alt": "Two braid diagrams linked by a rewrite arrow illustrate a modified Coxeter relation for equivalent reversible programs.",
+    "blogs": [],
+    "image": "assets/papers/reversible-programming.png",
+    "dimensions": {
+      "width": 800,
+      "height": 500
+    },
+    "page_1based": 15,
+    "crop": {
+      "units": "PDF points",
+      "origin": "top-left",
+      "box": [
+        227.13,
+        83.13,
+        413.67,
+        199.64
+      ]
+    },
+    "rendering": "Raster crop of the actual paper PDF rendered at 360 dpi with PDFium, resized using Lanczos. No redrawing.",
+    "verified_on": "2026-10-19",
+    "selection_reason": "The braid rewrite depicts the paper’s method for normalizing equivalent reversible programs, with a readable pair of wire diagrams.",
+    "venue_url": "https://popl22.sigplan.org/track/POPL-2022-popl-research-papers",
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3498667"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=Hft9ozRusIA"
+      }
+    ]
+  }
+]
