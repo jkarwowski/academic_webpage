@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* Paper figures and details share a row when there is room. */
+/* Paper figures and details stay side by side at every screen width. */
 .paper-list {
   display: grid;
   gap: 32px;
@@ -184,16 +184,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 560px) {
   .paper {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 14px;
-  }
-  .paper-figure {
-    width: min(95%, 228px);
-    justify-self: start;
-  }
-  .paper-figure img {
-    max-height: 171px;
-    object-position: left center;
+    grid-template-columns: 26% minmax(0, 1fr);
+    gap: 12px;
   }
 }
 
